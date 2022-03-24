@@ -1,0 +1,113 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("https://cdn.glitch.global/249b9d7a-d94a-47d1-bcb3-ab7fb28c6fd7/Untitled%20design-4.png?v=1647491021299");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  color: black;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+#bodytext {
+  margin-left: 10%;
+  margin-right:10%;
+  color: black;
+  padding: 25px;
+  border-style: outset;  
+  font-size: 20px;
+}
+h1 {
+  color: maroon;
+  margin-top: 10px;
+  font-family: verdana, arial, sans-serif; 
+}
+
+button{
+padding: 8px;
+border-radius: 10px;
+}
+#startBtn {
+  width:200px;
+  height:60px;
+  font-size: 25px;
+  margin-bottom:15px;
+  background: maroon;
+  color: white;
+}
+
+#stopBtn {
+  width:200px;
+  height:60px;
+  font-size: 25px;
+  margin-bottom:15px;
+  background: maroon;
+  color: white;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin-top: 13px;
+
+}
+
+#livesArea {
+   position: relative;
+   top: 0px;
+   right: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1{
+  background: green;
+  
+}
+#button2{
+  background: blue;
+}
+#button3{
+  background: red;
+}
+#button4{
+  background: yellow;
+}
+#button5{
+  background: pink;
+}
+#button6{
+  background: orange;
+}
+
+
+#button1:active, #button1.lit {
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/3.png?v=1646888931855) no-repeat;
+}
+#button2:active, #button2.lit {
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/1.png?v=1646888968221) no-repeat;
+}
+#button3:active, #button3.lit{
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/4.png?v=1646889011322) no-repeat;
+}
+#button4:active, #button4.lit {
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/2.png?v=1646889013271) no-repeat;
+}
+#button5:active, #button5.lit {
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/5.png?v=1647156192992) no-repeat;
+}
+#button6:active, #button6.lit {
+    background: url(https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/6.png?v=1647156192993) no-repeat;
+}
+
+
+footer {
+  padding-top: 50px;
+  text-align: left;
+}

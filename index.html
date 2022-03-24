@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mario Bros Sound and Memory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Mario Bros. Sound and Memory Game</h1>
+        <div id = "livesArea">
+      <img src="https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/Heart.png?v=1647206675040" id = "heart1" alt="heart1">
+      <img src="https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/Heart.png?v=1647206675040" id = "heart2" alt="heart2">
+      <img src="https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/Heart.png?v=1647206675040" id = "heart3" alt="heart3">
+    </div>
+    <p id="bodytext">
+      Hello! <strong> Welcome to the game!</strong> <br>
+      Remember and repeat back the
+      patterns by pressing buttons! <br>You only have 3 Lives and the Game speeds up each round! <br> Total: 9 rounds to win. Good Luck! 
+    </p>
+    <h2 id ="count">10</h2>
+    <p id = "rounds">
+      <strong> Round: 1</strong>
+    </p>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button class="hidden" id="stopBtn" onclick="stopGame()">End</button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      ></button>
+    </div>
+    <footer class="footer">
+      <a
+        class="btn--remix"
+        target="_top"
+        href="mailto:muradovayulduz1@gmail.com"
+      >
+        <img
+          src="https://cdn.glitch.global/f770d1b2-692c-4242-8f40-6b0f3115fbb8/GmailLogo.png?v=1647158632083"
+          alt=""
+        />
+        Yulduz Muradova
+      </a>
+    </footer>
+  </body>
+</html>
+

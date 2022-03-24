@@ -4,7 +4,7 @@
 
 Submitted by: **Yulduz Muradova**
 
-Time spent: **13** hours spent in total
+Time spent: **17.5** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 

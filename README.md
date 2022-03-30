@@ -45,14 +45,17 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ### a) When the User Loses
-![](https://imgur.com/EmOdLd3.gif)
+
+[Link Here](https://imgur.com/EmOdLd3.gif)
 
 ### b) When the User Wins 
 (For testing purposes, the number of rounds was set to 4)
-![](https://imgur.com/RZXJ7ZK.gif)
+
+[Link Here](https://imgur.com/RZXJ7ZK.gif)
 
 ### c) Game Timer
 (User has only 10 seconds for each round. When timer will reach to 0 seconds, the user loses the game)
+
 [Link Here](https://imgur.com/m9c8pZF.gif)
 
 

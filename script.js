@@ -1,4 +1,3 @@
-//style.css
 //Yulduz Muradova
 
 // global constants
